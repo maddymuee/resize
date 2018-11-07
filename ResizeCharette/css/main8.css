@@ -1,0 +1,265 @@
+
+.container{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background-color: black;
+
+}
+
+.box{
+	position:absolute;
+	width:30%;
+	height:30%;
+	top:35%;
+	left:35%;
+	background-color: white;
+}
+
+
+
+@media (max-width: 1400px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 1375px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+@media (max-width: 1350px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 1325px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 1300px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 1275px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 1250px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 1225px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 1200px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 1175px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 1150px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 1125px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 1100px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 1075px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 1050px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+
+@media (max-width: 1025px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 1000px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 975px) { 
+	.box{
+		visibility: visible;
+	}
+}
+@media (max-width: 950px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 925px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 900px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 875px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 850px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 825px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 800px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 775px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 750px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 725px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 700px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 675px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 650px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+@media (max-width: 625px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 600px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 575px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 550px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 525px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 500px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 475px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 450px) { 
+	.box{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 425px) { 
+	.box{
+		visibility: visible;
+	}
+}
+
+@media (max-width: 400px) { 
+	.box{
+		visibility: hidden;
+	}
+}

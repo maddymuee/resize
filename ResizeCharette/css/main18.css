@@ -1,0 +1,161 @@
+.container{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background-color: white;
+}
+
+.box {
+	width: 400px;
+	height: 600px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -300px;
+	margin-left: -200px;
+	background-image: url('../images/guy1.jpg');
+	background-size: cover;
+	background-color: #000000;
+}
+
+@media (max-width: 1400px) { 
+}
+
+@media (max-width: 1000px) { 
+	.box {
+		background-image: url('../images/guy2.jpg');
+	}
+}
+
+
+@media (max-width: 800px) { 
+	.box {
+		background-image: url('../images/guy3.jpg');
+	}
+}
+
+@media (max-width: 500px) { 
+	.box {
+		background-image: url('../images/guy4.jpg');
+	}
+
+/*
+@media (max-width: 600px) { 
+	.box{
+		transform:scale(1.5);
+	}
+	.box2{
+		transform:scale(.5);
+	}
+}
+
+@media (max-width: 500px) { 
+	.box{
+		transform:scale(1.55);
+	}
+	.box2{
+		transform:scale(.45);
+	}
+}
+
+@media (max-width: 400px) { 
+	.box{
+		transform:scale(1.6);
+	}
+	.box2{
+		transform:scale(.4);
+	}
+}
+
+@media (max-width: 300px) { 
+	.box{
+		transform:scale(1.65);
+	}
+	.box2{
+		transform:scale(.35);
+	}
+}
+
+@media (max-width: 200px) { 
+	.box{
+		transform:scale(1.7);
+	}
+	.box2{
+		transform:scale(.3);
+	}
+}
+
+@media (max-width: 100px) { 
+	.box{
+		transform:scale(1.75);
+	}
+	.box2{
+		transform:scale(.25);
+	}
+
+
+
+@media (max-height: 700px) { 
+	.box2{
+		transform:rotate(30deg);
+	}
+	.box{
+		transform:rotate(-30deg);
+	}
+}
+
+@media (max-height: 600px) { 
+	.box2{
+		transform:rotate(60deg);
+	}
+	.box{
+		transform:rotate(-60deg);
+	}
+}
+@media (max-height: 500px) { 
+	.box2{
+		transform:rotate(90deg);
+	}
+	.box{
+		transform:rotate(-90deg);
+	}
+}
+
+@media (max-height: 400px) { 
+	.box2{
+		transform:rotate(120deg);
+	}
+	.box{
+		transform:rotate(-120deg);
+	}
+}
+
+@media (max-height: 300px) { 
+	.box2{
+		transform:rotate(150deg);
+	}
+	.box{
+		transform:rotate(-150deg);
+	}
+}
+
+@media (max-height: 200px) { 
+	.box2{
+		transform:rotate(180deg);
+	}
+	.box{
+		transform:rotate(-180deg);
+	}
+}
+
+@media (max-height: 100px) { 
+	.box2{
+		transform:rotate(210deg);
+	}
+	.box{
+		transform:rotate(-210deg);
+	}
+}
+*/
