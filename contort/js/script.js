@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 
 
-$(window).resize(function(){
+$(window).click(function(){
     var audio = document.getElementById("fake");
         audio.play(); 
     $("#gif").hide();  
@@ -11,10 +11,6 @@ $(window).resize(function(){
     $("#intro").hide();    
 });
 
-$(window).hover(function(){
-    var audio = document.getElementById("fake");
-        audio.play();   
-});
 
 
 
