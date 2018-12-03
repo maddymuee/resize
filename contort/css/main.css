@@ -508,3 +508,9 @@ b:hover {
 }
 }
 
+@media screen and (max-height: 159px) { 
+	.container {
+		height: 100%;
+	}
+}
+
