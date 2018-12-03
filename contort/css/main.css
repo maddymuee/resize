@@ -498,5 +498,13 @@ b:hover {
 	.container {
 		width: 100%;
 	}
+	#gif {
+	width: 250px;
+	position: absolute;
+	left: 50%;
+	margin-left: -125px;
+	top: 10%;
+	z-index: 5;
+}
 }
 
