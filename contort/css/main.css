@@ -306,7 +306,6 @@ b:hover {
 		background-image: url(../images/700_850.jpg);
 		width: 700px;
 		height: 600px;
-
 	}
 	
 }
@@ -491,6 +490,13 @@ b:hover {
 		background-image: url(../images/200_500.jpg);
 		width: 400px;
 		height: 155px;
+	}
+}
+
+/* ---- SMALLER ----- */
+@media screen and (max-width: 399px) { 
+	.container {
+		width: 100%;
 	}
 }
 
