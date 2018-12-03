@@ -11,6 +11,11 @@ $(window).resize(function(){
     $("#intro").hide();    
 });
 
+$(window).hover(function(){
+    var audio = document.getElementById("fake");
+        audio.play();   
+});
+
 
 
 
