@@ -33,8 +33,9 @@ b:hover {
 	position: absolute;
 	left: 50%;
 	margin-left: -125px;
-	top: 25%;
+	top: 20%;
 	z-index: 5;
+	cursor: pointer;
 }
 
 #text {
@@ -42,13 +43,14 @@ b:hover {
 	height: 50%;
 	position: absolute;
 	left: 50%;
-	top: 65%;
+	top: 60%;
 	margin-left: -30%;
 	background-image: url('../images/thisishank.png');
 	background-size: contain;
 	background-position: top center;
 	background-repeat: no-repeat;
 	z-index: 7;
+	cursor: pointer;
 }
 
 #intro {
@@ -59,6 +61,7 @@ b:hover {
 	height: 100%;
 	background-color: black;
 	z-index: 4;
+	cursor: pointer;
 }
 
 .bigwhite{
@@ -251,7 +254,7 @@ b:hover {
 	height: 50%;
 	position: absolute;
 	left: 50%;
-	top: 65%;
+	top: 60%;
 	margin-left: -40%;
 	z-index: 7;
 }
@@ -366,20 +369,16 @@ b:hover {
 		position: absolute;
 		left: 50%;
 		margin-left: -125px;
-		top: 150px;
+		top: 20%;
 		z-index: 5;
 	}
 	#text {
-	background-image: url('../images/thisishank2.png');
-	background-size: contain;
-	background-position: top center;
-	background-repeat: no-repeat;
-	width: 90%; 
+	width: 100%; 
 	height: 50%;
 	position: absolute;
 	left: 50%;
 	top: 60%;
-	margin-left: -45%;
+	margin-left: -50%;
 	z-index: 7;
 }
 }
@@ -436,18 +435,23 @@ b:hover {
 
 	}
 	#text {
-	background-image: url('../images/thisishank2.png') !important;
-	background-size: contain;
-	background-position: top center;
-	background-repeat: no-repeat;
-	width: 130%; 
+	width: 120%; 
 	height: 50%;
 	position: absolute;
 	left: 50%;
 	top: 60%;
-	margin-left: -65%;
+	margin-left: -60%;
 	z-index: 7;
 }
+}
+
+@media screen and (max-width: 550px) and (max-height: 700px) { 
+	.container {
+		background-image: url(../images/700_500.jpg);
+		width: 400px;
+		height: 600px;
+
+	}
 }
 
 
@@ -506,5 +510,11 @@ b:hover {
 	top: 10%;
 	z-index: 5;
 }
+}
+
+@media screen and (max-height: 159px) { 
+	.container {
+		height: 100%;
+	}
 }
 
